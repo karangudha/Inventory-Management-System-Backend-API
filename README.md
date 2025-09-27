@@ -1,2 +1,16 @@
 # Inventory-Management-System-Backend-API
 A backend-heavy API to track products in a warehouse.
+
+
+### **Core Features**
+
+**Product Management:**
+
+- Full CRUD (Create, Read, Update, Delete) endpoints for products. A product should have a name, description, and stock_quantity.
+
+**Inventory Logic:**
+
+- When updating a product, the stock_quantity cannot go below zero.
+- Create two endpoints to manage stock:
+    - Increases the stock quantity.
+    - Decreases the stock quantity, returning an error if insufficient stock is available.
