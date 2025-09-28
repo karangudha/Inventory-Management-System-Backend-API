@@ -36,7 +36,7 @@ A backend-heavy API to track products in a warehouse.
 
 **Folder Structure**
 - API Structure
-    - core
+    - src
         controllers
             - productController.js
             - inventoryController.js

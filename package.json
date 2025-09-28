@@ -1,0 +1,27 @@
+{
+  "name": "inventory-management-system-backend-api",
+  "version": "1.0.0",
+  "description": "A backend-heavy API to track products in a warehouse.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karangudha/Inventory-Management-System-Backend-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karangudha/Inventory-Management-System-Backend-API/issues"
+  },
+  "homepage": "https://github.com/karangudha/Inventory-Management-System-Backend-API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.2"
+  }
+}
